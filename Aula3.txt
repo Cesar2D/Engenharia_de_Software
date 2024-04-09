@@ -1,0 +1,268 @@
+Desenvolvimento Ágil de Software
+	
+	O que é agilidade?
+		- Eficácia (rapido e adaptativo) para resposta a mudanças.
+		
+		- Eficácia na comunicação entre os stakeholders(envolvidos).
+		
+		- Envolvimento do cliente na equipe de desenvolvimento.
+		
+		- Organização da equipe para entregar incrementos de software
+		
+		Produzindo...
+		- rapidamente, software de forma incremental.
+		
+	O Manifesto do Desenvolvimento de Software Ágil
+		- Por meio do trabalho de ajudar os outros a desenvolver o software, passamos a valorizar:
+		  * Indivíduos e interação acima de processo e ferramentas.
+		  * Software em funcionamento acima de documentação abrangente.
+		  * Colaboração com o cliente acima de negociação de contratos.
+		  * Responder a mundanças acima de segui um plano.
+		- Ou seja, embora haja valor nos itens à direita, valorizaremos os da esquerda mais ainda.
+		
+		obs.:
+		     * Faça da comunicação um pré-requisito.
+		     * Entregue valor a todo instante.
+		     * Torne as pessoas sensacionais.
+		     * Experimente e aprenda rápido.
+		     
+	Princípios da agilidade da Agile Alliance:
+		1. A maior prioridade é satisfazer o cliente por meio da entrega adiantada e contínua de software valioso.
+		2. Acolha bem os pedidos de alterações, mesmo atrasados no desenvolvimento; os processos ágeis se aproveitam das mudanças como uma vantagem competitiva na relação com o cliente.
+		3. Entregue software em funcionamento frequentemente, de algumas semanas para alguns meses, dando preferências a intervalos mais curtos.
+		4. O pessoal comercial e os desenvolvedores devem trabalhar em conjunto diariamente ao longo de todo o projeto.
+		5. Construa projetos em torno de indivíduos motivados; dê a eles ambiente e apoio necessários e confie neles para ter o trabalho feito.
+		6. O método mais eficiente e efetivo de transmitir informações para e dentro de uma equipe de desenvolvimento é uma conversa aberta, de forma presencial.
+		7. Software em funcionamento é a principal medida de progresso.
+		8. Os processos ágeis promovem desenvolvimento sutentável; os proponentes, desenvolvedores e usuários devem estar capacitados para manter um ritimo constante indefinidamente.
+		9. Atenção contínua para com a excelência técnica e para com bons projetos aumenta a agilidade.
+		10. Simplicidade - a arte de maximizar o volume de trabalho não efetuado - é essencial.
+		11. As melhores arquitetura, requisitos e projetos emergem de equipes que se auto organizam.
+		12. A intervalos regulares, a equipe se avalia para ver como torna-se mais eficiente, então sintoniza e ajusta seu comportamento de acordo com o que seja necessário.
+		
+	Política do Desenvolvimento Ágil:
+		- Grande discussão acerca das metodologias tradicionais versus metodologias ágeis.
+		- Não se pode apontar melhor ou pior
+		- O ideal é aplicar o melhor de cada uma para cada contexto.
+		
+	Fatores Humanos
+		- O processo se adapta às necessidades das pessoas e equipes específicas, e não o caminho inverso.
+		
+		- Deve haver traços chaves entre as pessoas de uma equipe ágil e a equipe em si:
+		  * Competência.
+		  * Foco comum.
+		  * colaboração.
+		  * Habilidade na tomada de decisão.
+		  * Habilidade de solução de problemas confusos.
+		  * Confiança mútua e respeito.
+		  * Auto-organização.
+		  
+Processos Ágeis
+	
+	Processo Ágil:
+		- Dirigido por cenários construídos pelos clientes com seus requisitos.
+		
+		- Planejamento tem vida curta.
+		
+		- Desenvolvimento iteratico com uma forte ênfase nas atividades de construção.
+		
+		- Entrega de múltiplos incrementos de software.
+		
+		- Adaptação às mudanças.
+		
+	Extreme Programming (XP)
+		- Também conhecido como Programação Extrema.
+		
+		- Foi proposto por Kent Beck em 2004.
+		
+		- Processo ágil muito utilizado.
+		
+	Valores básicos do XP
+		- Comunicação
+		  * Relação estreita e informal
+		  
+		- Simplicidade
+		  * Fazer somente o necessário
+		
+		- Feedback
+		  * Devem ser constantes, à medida do desenvolvimento, com testes e entregas.
+		  
+		- Coragem (ou disciplina)
+		  * Disciplina para pensar somente no presente, mas bem feito.
+		  
+		- Respeito
+		  * Conforme as entregas vão acontecendo, o respeito pela equipe e pelo software vai aumentando.
+		  
+	Processo XP
+		- Planejamento
+			- Comece com a criação das "histórias dos usuários"
+			
+			- A equipe avalia as histórias e estima o custo.
+			
+			- As histórias são agrupadas em um incremento de software.
+			
+			- Define-se uma data de entrega do incremento
+			
+			- O primeiro incremento é utilizado como referência para acelerar os demais.
+			
+		- Projeto
+			- Segue o princípio KISS (keep it simple)
+			 
+			- Encoraja o uso de cartões CRC (classe-responsabilidade-colaborador)
+			
+			- Situações de dificuldade são resolvidas com prototipação
+			
+			- Encoraja a refatoração - refinamento iterativo do desenho interno do programa.
+			
+		- Codificação
+			- Recomenda a construção de testes de unidade antes do início da codificação.
+			
+			- Encoraja a programação em par.
+		
+		- Teste
+			- Todos os testes de unidade são executados diariamente.
+			
+			- Testes de aceitação são definidos pelo cliente para avaliação de uma funcionalidade.
+			
+Scrum
+
+	Declaração de Interdependência (DOI) da Gestão de Projeto Ágil
+		- Para alcançar o sucesso em entrega de retsultados:
+			- Aumentamos o retorno de investimento, tornando o fluxo contínuo de valor o nosso foco.
+			
+			- Entregamos resultados confiáveis, engajando interações frequentes e propriedade compartilhada.
+			
+			- Esperamos incertezas e gerenciamos levando-as em conta, por meio de interações, antecipação e adaptação
+			
+			- Promovemos criatividade e inovação reconhecendo que os indivíduos são a fonte última e criamos um ambiente em que eles fazem a diferença
+			
+			- Impulsionamos o desempenho por meio do compromisso do grupo em obter resultados e da responsabilidade compartilhada pela eficácia do grupo
+			
+			- Melhoramos a eficácia e a confiabilidade por meio de estratégias situacionais específicas, processos e práticas.
+			
+			
+	Como funciona?
+		Papéis fundamentais do Scrum
+			- Product Owner (PO)
+			
+			- Scrum Master (SM)
+			
+			- Scrum Team (ST)
+			
+	Início de um Projeto Scrum
+		- Um projeto Scrum é iniciado quando o Product Owner (PO), responsável por obter informações do stakeholders, ou usuários que os representem, elaboram uma lista de requisitos e criam um Backlog de Produto.
+		
+	O que é um Backlog de Produto?
+		- Lista de requisitos priorizada, que pode incluir de tudo:
+		  * aspectos do negócio a tecnologias
+		  * questões técnicas
+		  * correções de bugs
+		  
+	Criação de um Backlog  de Produto
+		- Os requisitos dos usuários costumam ser coletados como histórias de usuários curtas.
+		
+		- Workshop de um ou dois dias, anterior à reuniao de Planejamento de Releases e à reunião de Planejamento de Sprints.
+		
+	Planejamento de Releases
+		- Socialização da agenda de entregas prováveis.
+		
+		-Duração: cerca de quatro horas para cada Sprint de duas ou quatro semanas.
+		
+	Planejamento de Sprints
+		- Duração: cerca de oito horas para cada Sprint de quatro semanas (ou quatro horas para Sprint de duas semanas)
+		
+		- Geralmente é dividido em duas reuniões de quatro horas.
+		
+	O que deve ser feito na Sprint?
+		- O Product Owner organiza, com a participação colaborativa da equipe, os requisitos (histórias dos usuários) e definem, também juntos, os objetivos.
+		- Cria-se um Backlog de Sprint, que, geralmente, não pode ser modificado.
+		
+	Como a Sprint deve ser realizada?
+		- Identificação de tarefas com base nas histórias dos usuários
+		
+		- Estimativa de tempo para os incrementos que serão entregues
+		
+		- Construção de um Quadro de Tarefas (Task Board).
+		
+	Reuniões Diárias (Daily Meetings)
+		- Daily Scrum ou Daily Standup Meeting
+		
+		- Duração: 15 minutos
+		
+		- Pauta:
+		  * O que foi feito desde a última reunião?
+		  * Quais foram os obstáculos?
+		  * o Que será feito?
+		
+		- Atualização do Gráfico de Burndown
+		
+	Reunião para Revisão da Sprint
+		- Duração: cerca de uma hora para cada semana de Sprint.
+		
+		- Realizada com o PO para:
+		  a) Relatar o que foi feito para obter feedback.
+		  b) Apresentar e explicar o que não foi feito.
+		  c) Atualizar o roadmap do produto.
+	
+	Reunião para Retrospectiva da Sprint
+		- Duração: cerca de uma hora para cada semana de Sprint
+		
+		- O que funcionou e o que nçao funcionou durante o Sprint atua?
+		
+		- O que pode melhorar no próximo Sprint?
+		
+Kanban
+
+	Origem do Kanban
+		- Plavra de origem japonesa que significa registro ou placa visível
+		
+		- Sistema de escalonamento para produção "enxuta" e "just-in-time".
+		
+		- Sistema utilizado para controle de cadeia logística em vez de controle de estoque.
+		
+		- Desenvolvido pela Toyota em 1953
+		
+	Como funciona?
+		- Os cartões são utilizado para indicar o fluxo de uma produção em série
+		
+		- Cada tarefa está associada a um cartão
+		
+		- Se resume em três etapas:
+		  1. Visualizar processos.
+		  2. Limitar o trabalho em processo (WIP - Work In Progress).
+		  3. Gerenciamento do lead-time, ou seja, tempo que a atividade leva para passar por todas as fases até a sua entrega.
+		  
+	Implementação do Modelo Kanban
+		- O número de atividades ou cartões em circulação é equivalente à capacidade de sistema.
+		
+		- Conceito de "puxar tarefa" quando há capacidade de processá-la
+		
+		- Em software: requisitos são adicionados à lista de backlog e "puxados" por um membro da equipe.
+		
+	Por que usar?
+		- Manter, medir, otimizar e visualizar um fluxo constante de trabalho.
+		
+		- Limitar a quantidade de trabalho em andamento e reduzir estresse da equipe.
+		
+		- Melhorar a previsibilidade e a colaboração.
+		
+		- Contribuir para a maturidade da equipe.
+		
+	Quando NÃO usar métodos ou processos ágeis?
+		- Condições do mercado são estáveis e previsíveis
+		
+		- Requisitos são claros no início do projeto e rião permanecer estáveis.
+		
+		- Clientes não estão disponíveis para colaboração frequente.
+		
+		- Sistema semelhante já foi feito antes; logo, já se conhece a solução.
+		
+		- Problemas podem ser resolvidos sequencialmente, em silos funcionais.
+		
+		- Clientes não conseguem testar partes do produto, antes de completo.
+		
+		- Mudanças no final do projeto são caras ou impossíveis.
+		
+		- Impacto de mudanças provisórias pode ser catastrófico.
+		
+		

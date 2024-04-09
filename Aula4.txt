@@ -1,0 +1,98 @@
+Histórias de Usuários
+
+	O que é uma História de Usuário?
+		- "Uma história de usuário é uma descrição curta e simples de um requisito contada a partir da perspectiva da pessoa que deseja a nova funcionalidade do sistema".
+		
+		- Devem ser escritas de maneira a serem compreendidas por usuários e desenvolvedores.
+		
+		- Detalhes do comportamento do sistema não aparecem na história.
+		
+		- Modelo simples:
+		   Como <tipo de usuário>, desejo <algum objetivo> para que <alguma razão>
+		   
+	História e Requisito de Usuário
+		- Ambos são curtas, fáceis de ler e compreensíveis a desenvolvedores, partes interessadas e usuários.
+		
+		- A História de Usuário tem foco no valor definido pelo usuário.
+		
+		- O Requisito de Usuário apresenta um serviço ou restrição de software com foco no negócio.
+		
+		- A História de Usuário facilita o entendimento do valor para cada persona.
+		
+	Um outro modelo de história de usuários
+		Como um <papel>, eu posso/devo <atividade> para que <valor para o negócio>
+		
+		- Papel:
+		  * Permite uma segmentação da funcionalidade do produto.
+		  * Identifica necessidades baseadas em papéis
+		  
+		- Atividade:
+		  * Representa "requisito do sistema".
+		  
+		- Valor para o negócio:
+		  * Comunica porque a atividade é necessária.
+		  * Atividades alternativas podem ser discutidas.
+		  
+	Quem deve escrever?
+		- No XP, a proposta era o próprio usuário escrever suas histórias.
+		
+		- No Scrum, podem ser escritas pelo PO ou em conjunto com os usuários.
+		
+		- Na prática, geralmente, qualquer um pode escrever uma história, contudo, o PO do Scrum escreve, revisa e prioriza o conjunto de histórias de usuários.
+		
+	Representação das Histórias
+		- Cartão:
+		  * Representa duas ou três frases usadas para descrever a intenção da história.
+		  * Detalhe ainda será determinado.
+		  * Promessa de conversa.
+		  
+		- Conversa:
+		  * Interação contínua entre a equipe, cliente e PO para determinar comportamento detalhado do software.
+		
+		- Confirmação
+		  * Representa o teste de aceitação.
+		  * Representa condições de satisfação.
+		  
+	Detalhamento das Histórias
+		- Detalhes são alcançados principalmente pela conversação.
+		
+		- Se mais detalhes são necessários, podem ser providos por anexos.
+		  * Mock-up, planilha ou algoritimos.
+		
+		- Detalhes são coletados na medida em que se tornam necessários (just in time).
+		
+	Características de boas histórias (INVEST)
+		- Independentes.
+		  * História pode ser desenvolvida, testada e até entregue isoladamente.
+		  * A conclusão de uma história deixa o produto em um estado em que ele pode ser entregue.
+		
+		- Negociavel.
+		  * Não são contrato de implementação de algo.
+		  * Oportunidade de discussão de requisitos.
+		  * Processo de colaboração.
+		  * Deve haver possibilidade de trade-offs entre funcionalidade e datas de entrega.
+		  * Deve haver flexibilidade para atender objetivos.
+		
+		- Valor.
+		  * Essência dos métodos ágeis.
+		  * Backlogs são priorizados por valor.
+		  * Mudança de uma abordagem de decomposição hierárquica funcional para abordagem vertical.
+		  
+		- Estimáveis.
+		  * Equipe deve ser capaz de prover uma estimativa de sua complexidade e quantidade de trabakho necessário para terminar a história.
+		  * Ao menos uma tarefa deve ser completada em uma iteração.
+		  * Se a equipe não consegue estimar, história deve ser quebrada em histórias menores.
+		  * Pode haver uso de "spikes" funcionais ou técnicos para aumentar assertividade e tomar decisão.
+		  * Conversa durante o processo de estimativa é importante para levantar requisitos implícitos.
+		
+		- Sucintas.
+		  * Completadas em uma iteração.
+		  * Histórias pequenas provêm maior agilidade.
+		
+		- Testáveis.
+		  * Abordagem de se escrever o teste antes.
+		  * TDD (Test Driven Development).
+		  * Se equipe sabe como testar uma história, eles sabem como codificá-la.
+		  * Palavras como "rapidamente", "gerenciar", "limpo" são faceis de escrever mas ambíguas, devem ser evitadas.
+		
+	

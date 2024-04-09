@@ -1,0 +1,154 @@
+Introdução a Eng. Software
+	
+	Histórico da Computação:
+		
+		- Primeira Era(195? e 196?)
+		  * Orientação para o processamento batch
+		  * Distribuição limitada de sftwares
+		  * softwares extremamente padronizados
+		  * Produção artesanal sob demanda
+		  * Os profissionais de informática mantinham em suas cabeças o projeto das aplicações
+		
+		- Segunda Era(196? e 197?)
+		  * Sistemas multi usuários
+		  * Surgimento de software houses e bureaus de processamento
+		  * Surgimento dos pacotes de softwares, que passam a ser tratados como produto
+		  * Processamentos real-time
+		  * Início da utilização da tecnologia de Banco de Dados(BD)
+		  *rgimentos dos cursos de Ciência da Computação
+		  
+		- Terceira Era(197? e 198?)
+		  * Sistemas distribuidos, principalmente em função da evolução das tecnologias de redes de computadores
+		  * Inteligência embutida nos microprocessadores
+		  * Diminuição do custo do hardware
+		  * Os sistemas de computação passam a interferir no cotidiano das pessoas
+		
+		- Quarta Era(198? e 200?)
+		  * Aumento do poder das aplicações desktop
+		  * Tecnologia de orientação à objetos
+		  * Sistemas especialistas
+		  * Redes neurais
+		  * Computação paralela
+		  * Arquitetura multitier
+		  
+		- Quinta Era(200? até hoje)
+		  * Consolidação dos sistemas Web
+		  * Sistemas distribuídos de grande escala
+		  * Aplicações para dispositivos móveis
+		  * Cloud Computing
+		  * Big Data
+		  * Machine Learning, IA e Deep Learning
+		
+	Sintese:
+		- A velocidade da evolução do hardware é superior a velocidade de evolução do software
+		- Os softwares não tem conseguido acompanhar as mudanças impostas pelo ambiente organizacionais
+		- As organizações estão cada vez mais dependentes dos recursos e serviços advindos do software
+		- É necessário construir softwares cada vez mais confiáveis e de qualidade 
+		- O prazo para desenvolvimento de um software é cada vez mais curto
+	
+	Alguns Problemas:
+		- Relacionados ao Processo:
+		  * Cronogramas muito otimistas
+		  * Gerência de risco inexistente
+		  * Falha de contratação de recursos
+		  * Planejamento insuficiente
+		  * Abandono do planejamento por problemas de tempo
+		  * Gasto de tempo durante a concepção
+		  * Corte míope de atiidades que não sejam codificação (ex.: análise ou arquitetura)
+		  * Design inadequado
+		  * SQA ou SCM inexistente
+		
+		- Relacionados ao Produto:
+		  * Requisitos mal formulados, ou mal entendidos (+/- 25% dos requisitos mudam em projetos)
+		  * Desenvolvedores com tecnologias "folheadas em ouro"
+		  * Negociação "Puxa-empurra" (Cronograma é esticado, e mais tarefas são adicionadas)
+		  
+		- Relacionados à Tecnologia
+		  * Superestimas ganhos no uso de uma nova tecnologia
+		  * Trocar de ferramentas no meio do projeto
+		  * Falha de controle automático do código fonte (sem controle de versão)
+		  
+Software e suas Aplicações
+	
+	Um conceito para Software:
+		- "Software consiste em: (1) instruções (programas de computador) que, quando executadas, fornecem características, funções e desempenho desejados; (2) estruturas de dados que possibilitam aos programas manipular informações adequadamente; e (3) informação descritiva, tanto na forma impressa como na virtual, descrevendo a operação e o uso dos programas."
+	
+	Características do Software:
+		- O software é desenvolvido ou projetado por engenharia, e não manufaturado no sentido clássico
+		- O software não "se desgasta"
+		- Embora a indústria caminhe para a construção com base em componentens, a maioria dos softwares continua a ser construída de forma personalizada (sob encomenda)
+		
+	Natureza do Software:
+		- Software é um produto:
+		  * produz, gerencia, adquire, modifica, exibe ou transmite informação
+		  
+		- Software é um veículo para entrega de um produto:
+		  * controla outros software (Sistemas Operacionais)
+		  * viabiliza a comunicação de dados (Redes)
+		  * facilita a construção de outros softwares
+		  
+	Aplicações do Software:
+		- Software de sistemas:
+		  * programas que apoiam o funcionamento de outros programas forte interação com o hardware
+		  
+		- Software de tempo real:
+		  * monitora, analisa e controla eventos do mundo real, tempo real é diferente de interativo ou time-sharing
+		  
+		- Software de aplicação:
+		  * amplamente difundido
+		  * estruturam os dados de forma a facilitar a gestão das organizações e a vida das pessoas
+		  
+		- Software científico e de engenharia:
+		  * vão desde a astronomia até a vulcanologia
+		  * trabalham e processam números
+		  * CAD
+		  
+		- Software embutido ( embedded software):
+		  * reside na memória só de leitura (read only)
+		  * controla produtos e sistemas no mercado industrial
+		  
+		- Aplicações Web/ Aplicativos Móveis:
+		  * Hoje, fazem parte do dia-a-dia de muitas pessoas ao redor do mundo!
+		  
+		- Software de Inteligência Artificial:
+		  * faz uso de algoritimos não numéricos para resolver problemas complexos que não sejam favoráveis à computação
+		  * sistemas especialistas baseados no conhecimento
+		  * redes neurais artificiais
+		  
+		- Software Livre:
+		  * possuem código fonte auto descritivo que facilita a sua modificação e evolução
+		  
+		- Computação Ubíqua
+		  * softwares que permitem pequenos dispositivos e computadores pessoais se comunicarem em qualquer ambiente criando um contexto anywhere e always-on
+	Software Legado:
+		- Os softwares precisam estar adaptados aos novos ambientes e às novas tecnologias
+		
+		- Os softwares crescem para atender os novos requisitos
+		
+		- Os softwares precisam estender a sua interoperabilidade
+		
+		- Os softwares precisam ser rearquitetados para os novos ambientes de rede
+		
+Engenharia de Software
+
+	Alguns fatos reais:
+		- Entender o problema antes de desenvolver uma solução inovadora de software
+		
+		- Projetar é uma atividade fundamental
+		
+		- Um software deve ser fácil de ser mantido
+		
+	Definição: É o estabelecimento e o emprego de sólidos princípios de engenharia de modo a obter software de maneira econômica, que seja confiável e funcione de forma eficiente em máquinas reais
+	
+	Camadas da Engenharia de Software:
+	+---------------------+
+	|    Ferramentas      |  ^            
+	+---------------------+  |
+	|      Métodos        |  |
+	+---------------------+  | Sentido de Importancia.
+	|     Processos       |  |
+	+---------------------+  |
+	|  Foco na Qualidade  |  |
+	+---------------------+
+	
+	

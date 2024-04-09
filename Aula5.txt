@@ -1,0 +1,330 @@
+Engenharia de Requisitos
+
+	Requisitos
+		- Pode variar de uma declaração abstrata de alto nível de um serviço ou de uma restrição do sistema para uma especificação matemática funcional.
+		
+		- São escritos para serem lidos por qualquer usuário e também pelo arquiteto de sistemas. 
+		
+		- Podem ser a base para a proposta de um contrato - portanto, deve ser aberto à interpretação.
+		
+		- Pode ser a base para o contrato em si, portanto, deve ser definido em detalhe.
+		
+	Requisitos de Usuários
+		- Declaraçoes, em linguagem natural com diagramas, de quais serviços são esperados do sistema e as restriçõe sob as quais ele deve operar.
+		
+		- É escrito para ser lido por qualquer usuário e também pelo arquitetos de sistemas.
+		
+	Requisitos de Sistemas
+		- Definem, detalhadamente, as funções, os serviços e as restrições operacionais do sistema.
+		
+		- Devem ser precisos e definir exatamente o que será implementado.
+		
+		- São escritos para serem lidos por usuários finais, por arquitetos de sistemas e também pelos desenvolvedores de software.
+		
+		- São classificados em requisitos funcionais, requisitos não funcionais e requisitos de domínio.
+	
+	Requisitos Funcionais
+		- Requisitos funcionais são declarações que descrevem as funcionalidades e comportamento que um sistema, software ou produto deve ter para atenter às necessidades do usuário. eles descrevem o que o sistema deve fazer, incluindo operações específicas, entradas e saídas esperadas. Esses requisitos são fundamentais para orientar o desenvolvimento e garantir que o produto final atenda às expectativas do cliente.
+		
+	Requisitos Não Funcionais
+		- Requisitos não funcionais são critérios que não se referem diretamente às funcionalidades específicas do sistema, mas sim a qualidade operacionais com desempenho, segurança e usabilidade. Enquanto os requisitos funcionais definem o que o sistema deve fazer, os não funcionais definem com o sistema deve operar e quais padrões deve atender. Eles são importantes para garantir a qualidade e o desempenho do sistema.
+		
+	Requisitos de Usabilidade do Mentcare
+		- Requisitos de usabilidade do Mentcare garantem uma experiência do usuário intuitiva e eficiente, incluindo fácil navegação, clareza de informações, personalização e acessibilidade para todos os usuários.
+		
+	Requisitos de Domínio
+		- Requisitos de domínio referam-se às caracteristicas específicas do contexto ou área de aplicação do sistema. Eles incluem conhecimentos, terminologias, regulamentações e restrições relevantes para o domínio em questão. Esses requisitos são essenciais para garantir que o sistema atenda às necessidades e padrões específicos do setor ou campo em que será utilizado. Eles são fundamentais para o desenvolvimento de uma solução eficaz e adequada ao ambiente em que sera implementado.
+		
+Especificação de Requisitos
+	- O processo de escrever os requisitos de usuário e de sistema em um documento de requisitos.
+	
+	- Os requisitos precisam ser compreensíveis para usuários finais e clientes que não têm formação técnica.
+	
+	- Requisitos de sistema são mais detalhados e podem incluir informações mais técnicas.
+	
+	- Os requisitos podem ser parte de um contrato para o desenvolvimento do sistema, portanto, é importante que esses sejam tão completos quanto possível.
+	
+	Projeto e Requisitos
+		- Em princípio, os requisitos devem indicar o que o sistema deve fazer e o projeto deve descrever como fazer isso.
+		
+		- Na prática, os requisitos e o projeto são inseparáveis.
+		
+		- A arquitetura do sistema pode ser projetada para estruturar os requisitos.
+		
+		- O sistema pode interoperar com outros sistemas que restringem o projeto e impõen requisitos sobre o novo sistema.
+		
+		- O uso de uma arquitetura específica para satisfazer os requisitos não funcionais pode ser um requisito de domínio.
+		
+		- Essa pode ser a consequência de um requisito de um regulador tão completo quanto possível.
+		
+	Especificação em Linguagem Natural
+		- Utiliza a linguagem natural, diagramas e tabelas facilitando o entendimento pelos usuários e pelos clientes.
+		
+	Diretrizes
+		- Criar um formato padrão e usá-lo para todos os requisitos.
+		
+		- Usar a linguagem de uma forma consistente.
+		
+		- Usar "deve" para requisitos obrigatórios e "pode" para os requisitos desejáveis.
+		
+		- Usar o realce de texto para identificar as partes fundamentais do requisito.
+		
+		- Evitar o uso de jargões da área de computação.
+		
+		- Incluir uma justificativa (lógica) de por que um requisito é necessário.
+		
+	Problemas da Linguagem Natural
+		- Falta de clareza: é dificil conseguir precisão sem tornar o documento de difícil leitura.
+		
+		- Confusão de requisitos: requisitos funcionais e não funcionais tendem a ser misturados.
+		
+		- Amálgama de requisitos: vários requisitos diferentes podem ser expressos juntos.
+		
+	Cenários
+		- Cenários são exemplos reais de como um sistema pode ser usado.
+		
+		- Os cenários devem incluir:
+		  * Uma descrição da situação inicial.
+		  * Uma descrição do fluxo normal de eventos.
+		  * Uma descrição do que pode dar errado.
+		  * Informação sobre outras atividades concorrentes.
+		  * Uma descrição do estado quando o cenário termina.
+	
+	Casos de Uso
+		- Os casos de uso constituem em uma técnica baseada em cenários UML que identificam os agentes em uma iteração e que descrevem a interação em si.
+		
+		- Um conjunto de casos de uso deve descrever todas as possíveis interações dos atores com o sistema.
+		
+		- Modelo gráfico de alto nível complementado por um algoritimo que representa cada interação e também por outros diagrams (diagramas de atividades e diagramas de sequência).
+		
+	Documento de Requisitos
+		- O documento de requisitos de software é a declaração oficial do que é demandado dos desenvolvedores do sistema.
+		
+		- Deve incluir uma definição de requisitos do usuário e uma especificação de requisitos do sistema.
+		
+		- Não necessariamente é um documento de projeto.
+		
+		- Na medida do possível, deve definir O QUE o sistema deve fazer ao invés de COMO deve fazê-lo.
+		
+	Requisitos e Métodos Ágeis
+		- A produção de um documento de requisitos pode ser considerada um desperdício de tempo, pois, esses mudam rapidamente e o documento estará sempre desatualizado.
+		
+		- Metodos ágeis, tais como XP usam a engenharia de requisitos incrementais e expressam os requisitos com "histórias de usuário".
+		
+		- Isto é problemático para sistemas que exigem várias análises pré-entrega (por exemplo, sistemas críticos) ou sistemas desenvolvidos por várias equipes.
+		
+	Variabilidade do Documento de Requisitos
+		- As informações do documento dependem do tipo de sistema e da abordagem de desenvolvimento usada. Os sistemas, desenvolvidos de forma incremental, terão menos detalhes no documento.
+		
+		- Um exemplo de norma é a da IEEE.
+		
+Engenharia de Requisitos
+
+	Caracteristicas dos bons requisitos
+		- Clareza.
+		
+		- Ser completo.
+		
+		- Sem ambiguidade.
+		
+		- Implementável.
+		
+		- Consistente.
+		
+		- Verificável.
+		
+		- Rastreável.
+		
+	Engenharia de Requisitos
+		- É o processo de descobrir, analisar, documenta e verificar os serviços e as restrições de um sistema, ou seja. os seus requisitos.
+		
+		- A engenharia de requisitos se concentra em problemas e objetivo do mundo real para definir funções e restrições dos sistemas de software.
+		
+	Porque a definição de requisito é importante?
+		- Podem causa:
+		  * Perda de vidas.
+		  * Prejuízos financeiros.
+		  * Atrasos na entregas.
+		  * Aumento de riscos.
+		  * Baixa qualidade.
+		  
+	Principais etapas:
+		- Concepção.
+		  * Entendimento básico do problema.
+		  * Definição dos stakeholders.
+		  * Natureza da solução desejada.
+		  * Eficácia da cominicação e colaboração preliminares.
+		
+		- Levantamento.
+		  - Por que é tão difícil?
+		    * Problemas de escopo.
+		    * Problemas de entendimento do que realmente é necessário fazer.
+		    * Problemas de volatilidade.
+		  - Como identificar os requisitos?
+		    * Avaliar o negócio e a viabilidade técnica do sistema proposto.
+		    * Identificar as pessoas certas que participarão desse processo.
+		    * Definir o ambiente tecnológico necessário (visão geral).
+		    * Identificar restrições do domínio do problema (características do negócio).
+		    * Escolher bem os métodos (entrevistas, JAD, reuniões, etc.).
+		    * Envolver pessoas que podem ter pontos de vista diferentes acerca do que está sendo identificado.
+		    * Criar cenários para facilitar a análise dos envolvidos no processo.
+		    * Identificar a existência de requisitos ambíguos.
+		
+		- Elaboração e Negociação.
+		  - Questões que devem ser respondidas:
+		    * Os requisitos identificados estão de acordo com o objetivo do sistema?
+		    * O nível de abstração de cada requisito está adequado para ser iniciar a sua análise?
+		    * Existe a possibilidade de integrar e simplificar requisitos identificados?
+		    * Qual é a inter-relação dos requisitos?
+		    * Qual o impacto da retirada de cada um? (minimizar custo e prazo de entrega).
+		
+		- Especificação.
+		  * Documentação escrita.
+		  * Modelagem gráfica.
+		  * Modelagem matemática.
+		  * Protótipos.
+		  * Combinação dos anteriores.
+		
+		- Modelagem
+		  * Diagrama de casos do uso (diagrama de contexto).
+		  * Modelo de domínio.
+		  * Diagrama de atividades.
+		  * Diagrama de pacotes.
+		  * Diagrama de integração de sistemas de informação.
+		  
+		- Validação.
+		  * Tudo que foi especificado pode ser interpretado corretamente?
+		  * O desenvolvimento do requisito é factível tanto no âmbito do negócio e quanto no da tecnologia?
+					
+		- Gestão.
+		  * O que fazer com a volatilidade das premissas que geram um requisito?
+		  * Até que ponto é necessário manter um histórico das modificações?
+		  
+	- No entanto, existe uma série de atividades genéricas comuns a todos os processos:
+	  * Elicitação de requisitos.
+	  * Análise de requisitos.
+	  * Validação de requisitos.
+	  * Gerenciamento de requisitos.
+	- Na prática, engenharia de requisitos é uma atividade iterativa em que estes processos são intercalados.
+	
+	Estudo de viabilidade
+		- Um estudo de viabilidade determina a viabilidade de um sistema proposto, decidinto se vale a pena ou não investir tempo e esforço nele. É uma avaliação breve focada que verifica se o sistema contribui para os objetivos da organização.
+		
+		- Implementação:
+		  * Baseado na avaliação de informação (o que é requerido), coleta de informação e escrita de relatório.
+		
+	Elicitação e Análise
+		- Algumas vezes chamada de elicitação de requisitos ou de descoberta de requisitos.
+		
+		- Envolve pessoal técnico trabalhando com os clientes para descobrir sobre o domínio de aplicação, os serviços que o sistema deve fornecer e sobre as restrições operacionais.
+		
+		- Pode envolver usuários finais, gerentes, engenheiros envolvidos na manutenção, especialistas de domínio, representantes de sindicato, etc, ou seja, os stakeholders.
+		
+	Problemas de análise de rquisitos
+		- Stakeholders não sabem o que eles realmente querem.
+		
+		- Stakeholders expressam requisitos em seu próprios termos.
+		
+		- Diferentes stakeholders podem ter requisitos conflitantes.
+		
+		- Fatores organizacionais e políticos podem influenciar os requisitos de sistema.
+		
+		- A mudança de requisitos durante o processo de análise.
+		
+		- Novos stakeholders podem surgir e o ambiente de negócio muda.
+		
+	Descoberta de requisitos
+		- É o processo de reunir informações sobre os sistemas propostos e existentes, e obter requisitos a partir dessas informações.
+		
+		- A fonte de informação incluem documentação, stakeholders e as especificações de sistemas similares.
+	
+	Entrevistas
+		- Em entrevista formal ou informal, a equipe de engenharia de requisitos formula questões para os stakeholders sobre o sistema que eles usam e o sistema a ser desenvolvido
+		
+		- Existem dois tipos de entrevistas:
+		  * Entrevistas fechadas, onde um conjunto de questões predefinidas são respondias.
+		  * Entrevistas abertas, onde não há um roteiro predefinido e onde uma variedade de assuntos são explorados com os stakeholders.
+		  
+	Entrevistas na prática
+		- Elas são boas para obtenção de um entendimento geral do que os stakeholders fazem e como eles podem interagir com o sistema. E não são boas para a compreenção de requisitos de domínio:
+		  * Os engenheiros de requisitos podem não entender a terminologia específica de domínio.
+		  * Alguns conhecimentos de domínio são tão específicos que as pessoas acham dificil explicar ou pensam que não valem a pena mencioná-los.
+		  
+	Entrevistas efetvas
+		- Os entrevistadores devem estar abertos, ouvindo atentamente os stakeholders e evitando ideias preconcebidas sobre os requisitos. Eles devem orientar os entrevistados com perguntas específicas ou propostas.
+		
+	Etnografia
+		- O analista observa como as pessoas trabalham, sem necessidade de explicação, identificando fatores sociais e organizacionais. Estudos indicam que o trabalho é mais complexo do que modelos simples de sistemas sugerem.
+		
+	Âmbito da Etnografia
+		- Requisitos baseados na prática real de trabalho, não apenas em definições de processos. Consideram a cooperação e a consciência das atividades de outros. A etnografia ajuda a entender processos existentes, mas não identifica novos recursos para o sistema.
+		
+	Validação de requisitos
+		- Validar requisitos garante que o sistema atenda às necessidades do cliente. Erros nesse estágio são caros; a correção pós-entrega pode ser até 100 vezes mais dispendiosa do que a correção durante a implementação.
+		
+	Verificação de requisitos
+		- Confirmação de validade: O sistema atende às necessidades do cliente?
+		
+		- Verificação de consistência: Há conflitos entre os requisitos?
+		
+		- Avaliação de completude: Todas as funções solicitadas estão incluidas?
+		
+		- Análise de realismo: Os requisitos podem ser implementados dentro do orçamento e tecnologia disponíveis?
+		
+		- Verificabilidade: Os requisitos podem ser verificados?
+		
+	Técnicas de validação de requisitos
+		- Revisões de requisitos
+		  * Análise manual sistemática dos requisitos.
+		
+		- Prototipação
+		  * Uso de um modelo executável do sistema para verificar requisitos.
+		  
+		- Geração de casos de teste.
+		  * Desenvolvimento de testes para requisitos a fim de verificar a testabilidade.
+		  
+	Revisões de requisitos
+		- Revisões regulares devem ser feitas enquanto a definição de requisitos está sendo formulada.
+		
+		- Ambos, cliente e fornecedor, devem ser envolvidos nas revisões
+		
+		- Revisões podem ser formais (com documentos completos) ou informais.
+		
+		- Uma boa comunicação entre desenvolvedores, clientes e usuários podem resolver problemas nos estágios iniciais.
+		
+	Verificação de requisitos
+		- Facilidade de verificação: o requisito é realisticamente testável?
+		
+		- Facilidade de compreensão: o requisito é adequadamente compreendido?
+		
+		- Rastreabilidade: a origem do requisito é claramente estabelecida?
+		
+		- Adaptabilidade: o rquisito pode ser mudado sem um grande impacto em outros requisitos?
+		
+	Gerenciamento de requisitos
+		- Gerenciamento de requisitos é controlar mudanças durante a engenharia de sistemas. Requisitos são incompletos e inconsistentes devido à evolução das necessidades e perpectivas contaditórias. Manter controle e interligações entre rquisitos é essencial. Processo formal para propor mudanças é crucial.
+		
+	Mudança de requisitos
+		- Durante o desenvolvimento, a priorização dos requisitos muda com as perspectivas. Clientes podem ter requisitos de negócio conflitantes com os do usuário final. Ambientes técnico e de negócio mudam durante o desenvolvimento.
+		
+	Planejamento de gerenciamento de requisitos
+		- identificar requisitos individualmente permite comparações. Gerenciar mudanças avalia impactos e custos. Políticas de rastreabilidade relacionam requisitos e projeto do sistema. Ferramentas variam de sistemas especialistas a planilhas.
+		
+	Requisitos permanentes e voláteis
+		- Requisitos permanentes são estáveis, fundamentados na atividade central de organização, como médicos e enfermeiros em um hospital. Podem ser derivados dos modelos de domínio. Requisitos voláteis mudam durante o desenvolvimento ou operação
+	
+	Rastreabilidade
+		- Rastreabilidade da fonte conecta requisitos aos stakeholders. Rastreabilidade de requisitos é conexão entre requisitos dependentes. Rastreabilidade de projeto liga requisitos aos módulos de projeto.
+		
+	Apoio de Ferramenta CASE
+		- Armazenamento de requisitos: Manter requisitos em repositório seguro e gerenciado
+		
+		- Gerenciamento de mudanças: Workflow com estágios definidos, parcialmente automatizado.
+		
+		- Gerenciamento de rastreabilidade: Recuperação automatizada das ligações entre requisitos.
+		
+	Pontos-chaves
+		- Os requisitos de um sistema de software definem suas funcionalidades e restrições operacionais. Requisitos funcionais descrevem serviços e computações, enquanto os não funcionais restringem o sistema e seu desenvolvimento. A engenharia de requisitos inclui elicitação, especificação, validação e gerenciamento. A elicitação é iterativa, envolvendo descoberta, classificação, negociação e documentação. O documento de requisito pe um acordo entre clientes e desenvolvedores, validado para garantir sua qualidade. Mudanças nos ambientes levam a mudanças no requisitos, gerenciados pelo gerenciamento de requisitos.
+		
+		
+	

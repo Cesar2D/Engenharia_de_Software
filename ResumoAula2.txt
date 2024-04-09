@@ -1,0 +1,34 @@
+Processos de Software
+
+Um processo é uma sequência de passos com um propósito definido. Um Processo de Desenvolvimento de Software é um conjunto de atividades, métodos e práticas para desenvolver ou manter softwares. Existem modelos genéricos, como o *linear*, *iterativo*, *evolucionário* e *paralelo*.
+
+Padrões de Processo identificam problemas e sugerem soluções. Modelos prescritivos, como o *cascata*, propõem uma abordagem ordenada. Modelos incrementais combinam elementos *lineares* e *paralelos* (dividem-se em grupos lineares por exempo iteração 1º ... iteração Nº). Modelos evolucionários, como *prototipação* (ciclos iterativos onde a entrega é um protótipo e não o produto final) e espiral (como uma espiral, possuem areas e quanto mais passa o tempo monta-se versões cada vez mais completas), desenvolvem versões completas do software.
+
+O Processo de Software Pessoal (PSP), proposto por Watts Humphrey, enfatiza a adaptação do processo de software às pessoas e destaca a importância de aprender com os erros. Possui cinco atividades estruturais: Planejamento, Projeto de alto nível, Revisão de projeto de alto nível, Desenvolvimento e Autópsia (análise postmortem).
+
+O Processo de Software em Equipe (TSP), também de Humphrey, baseia-se nas lições do PSP e visa criar equipes autodirigidas para produzir software de alta qualidade. Seus objetivos incluem promover equipes autodirigidas, acelerar melhorias nos processos de software, orientar organizações com alta maturidade e facilitar o ensino de habilidades de trabalho em equipe.
+
+As atividades metodológicas do TSP incluem o Lançamento do projeto, Projeto de alto nível, Implementação, Integração e testes, e Autópsia (análise postmortem).
+
+O PSP possui atividades estruturais como Planejamento e Autópsia. O TSP visa criar equipes autodirigidas e acelerar melhorias de processo. Ambas focam em aprendizado com erros, autonomia e qualidade do produto.
+
+O Processo Unificado (UP) baseia-se em ciclos iterativos e incrementais (dividem-se em grupos "circulares", onde acontece iterações), com forte ênfase na arquitetura do sistema e uso de modelagem visual (Utiliza a UML - Unified Modeling Language). O Rational Unified Process (RUP) é uma variação do UP, enfatizando colaboração e modelagem visual, com fases como Concepção, Elaboração, Construção e Transição. 
+
+No desenvolvimento iterativo, cada iteração produz um incremento executável do software. A comparação entre modelos de processo, como Cascata, Prototipação, Espiral e Unificado, revela vantagens e desvantagens de cada abordagem, destacando a importância de escolher o modelo mais adequado para cada contexto.
+
+Comparação entre Modelos de Processos:
+Modelo Cascata:
+  * Prós: Fácil de entender e planejar, adequado para projetos pequenos e bem compreendidos, análise e teste diretos.
+  * Contras: Pouca adaptação a mudanças, teste tardio no processo, aprovação do cliente apenas no final.
+
+Prototipação:
+  * Prós: Redução do impacto das alterações nos requisitos, envolvimento precoce do cliente, eficaz para projetos pequenos, menor probabilidade de rejeição do produto.
+  * Contras: Possíveis atrasos devido ao envolvimento do cliente, tentação de superestimar o protótipo, desperdício de trabalho em protótipos descartáveis, dificuldade de planejamento e gestão.
+
+Modelo Espiral:
+  * Prós: Envolvimento contínuo dos clientes, gerenciamento de riscos, adequado para projetos grandes e complexos, eficaz para artefatos extensíveis.
+  * Contras: Falhas na análise de risco podem levar ao fracasso, dificuldade de gerenciamento do projeto, necessidade de uma equipe especializada.
+
+Processo Unificado:
+  * Prós: Ênfase em documentação de alta qualidade, envolvimento contínuo dos clientes, adaptação a mudanças nos requisitos, eficaz para projetos de manutenção.
+  * Contras: Precisão variável dos casos de uso, complexidade na integração de incrementos de software, sobreposição de fases pode causar problemas, requer equipe especializada.

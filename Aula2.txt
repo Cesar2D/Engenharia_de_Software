@@ -1,0 +1,382 @@
+Processos de Software
+	
+	O que é um processo?
+		- Um processo é uma sequencia de passos realizados com um proposito. Ou seja, processo é o que você faz. Transformando matéria prima em produto.
+		
+	O que é um Processo de Desenvolvimento de Software?
+		- Um processo de desenvolvimento de software pode ser definido com um conjunto de atividades, métodos, práticas e transformações que pessoas utilizam para desenvolver ou dar manutenção em softwares ou em seus produtos associados. Utilizando methodologias para as atividades, ações e tarefas necessárias para desenvolver um software de qualidade.
+	
+	Modelo de Processo Genérico:
+	
+		- Atividades metodológicas:
+		  * Comunicação
+		  * Planejamento
+		  * Modelagem
+		  * Construção
+		  * Entrega
+		
+		- Atividades de apoio:
+		  * Controle e acompanhamento do projeto
+		  * Administração de riscos
+		  * Garantia de qualidade
+		  * Revisões técnicas
+		  * Medição
+		  * Gerenciamento de configuração de software
+		  * Gerenciamento de reúso
+		  * Preparo e produção de artefatos
+		  
+	Fluxo de Processo:
+		- Linear:
+		    --->|  x  | -> |  x  | -> |  x  | -> |  x  |
+		
+		- Iterativo:
+		    --->|  x  | -> |  x  | -> |  x  | -> |  x  |
+			   ^          V       ^     V       v
+			   +----------+       +-----+       |
+			   +--------------------------------+    
+		
+		- Evolucionário:
+			   +---------> |  x  | ---------+
+			   ^                            v
+	            --->|  x  |                      |  x  |
+			   ^                            v
+			   +---------- |  x  | <--------+
+			                  |
+			              <---+
+			                  
+		- Paralelo:
+		    --->|  x  | ----> |  x  |
+		           |             |
+		           +-->|  x  |<--+
+		                  |
+		                  +---> |  x  | ---> |  x  | --->
+		                  
+		                  
+	Modelo de Processo Genérico:
+		- As atividades do processo devem ser definidas, basicamente, de acordo com a complexidade e com os envolvidos no projeto.
+		
+		- Ou seja, projetos diferentes demandam conjuntos de tarefas diferentes. A equipe de software escolhe o conjunto de tarefas fundamentada no problema e nas características do projeto.
+		
+	Padões de Processo:
+		- Descreve um problema relacionado ao processo que podxe ser encontrado em um trabalho de engenharia de software
+		
+		- Identifica o ambiente onde o problema é normalmente encontrado
+		
+		- Sugere soluções para o problema
+		
+	Tipos de Padrões de Processo:
+		- Padões de estágio:
+		  * Define um problema associado a uma atividade metodológica
+		  * Exemplo: Estabelecendo Comunicação
+		
+		- Padrões de tarefas:
+		  * Define um problema associado a uma ação de engenharia de software ou tarefa de trabalho relevante para a sua prática
+		  * Exemplo: Levantamento de Necessidades
+		  
+		- Padrões de fases:
+		  * Define a sequência das atividades metodológicas que ocorrem dentro do processo
+		  * Exemplo: Modelo Espiral ou Prototipação
+		  
+	Modelo de Processo Prescritivo:
+		- Esses modelos defendem uma abordagem ordenada para a engenharia de software
+		
+		- Rentam trazer ordem ao "caos" (code and fix)
+		
+		- Prescrevem um conjunto de elementos do processo
+		
+		- Também são conhecidos como modelos tradicionais
+		
+		- Modelo em cascata:
+			|  x  |
+			   +----> |  x  |
+			             +----> |  x  |
+			                       +----> |  x  |
+			                                 +----> |  x  | --->
+		
+		- Modelos de processo incremental:
+			Incremento 1
+			|  x  |
+			   +----> |  x  |
+			             +----> |  x  |
+			                       +----> |  x  |
+			                                 +----> |  x  | --->
+					...
+			Incremento N
+			|  x  |
+			   +----> |  x  |
+			             +----> |  x  |
+			                       +----> |  x  |
+			                                 +----> |  x  | --->
+			                                 
+		- Modelos de processo evolucionario:
+			* Prototipação
+			   +---------> |  x  | ---------+
+			   ^                            v
+	            --->|  x  |                      |  x  |
+			   ^                            v
+			   +---------- |  x  | <--------+
+			                  |
+			    Protótipo <---+
+			    
+			* Modelo espiral:
+			             |
+			        +----|-----+      
+			        | +--|---+ |     
+			        | | >|-+ | |    
+			     --------+-------- 
+			        | |  | | | |
+			        | +--| + | |
+			        +----|---+ |
+			             |     v
+			             
+	Modelo em Cascata:
+		- Alguns problemas:
+		  * Projetos reais raramente seguem o fluxo sequencial proposto pelo modelo
+		  * Com frequência, é difícil para o cliente estabelecer explicitamente todas as necessidades no início da maioria dos projetos.
+		  * O cliente deve ter paciência. Uma versão operacional do(s) programa(s) não estará disponivel antes de estarmos próximos ao final do projeto.
+		  * Erros graves podem não ser detectados até o programa operacional ser revisto.
+		  
+	Modelos de processo incremental:
+		- Combina elementos dos fluxos de processos lineares e paralelos.
+		
+		- Cada sequência linear produz um incremento executável do software.
+		
+		- Cada incremento é um núcleo, uma base para o próximo.
+		
+		- Exemplo 1: um editor de texto que é implementado só com as funções básicas em sua primeira versão
+		
+		- Exemplo 2: um Sistema de Gestão Empresarial para substituição de um Sistema Legado
+		
+		- Problemas do Desenvolvimento incremental:
+		  * As grandes organizações têm procedimentos burcráticos que evoluíam ao longo do tempo, o que pode levar a uma incompatibilidade entre esses procedimentos e um processo iterativo ou ágio mais informal.
+		  
+	Modelos de processo evolucionário:
+		- Modelos evolucionários são iterativos ou icrementais
+		
+		- Apresentam características que possibilitam desenvolver versões cada vez mais completas do software
+		
+		- Modelos comuns: Prototipação e Modelo Espiral.
+		
+	Modelos de Processo Especializado:
+		- Desenvolvimento baseado em componentes
+		  * importância do reúso de software
+		
+		- Modelo de métodos formais
+		  * Ênfase na especificação matemática dos requisitos de software
+		  
+	Processo de Software Pessoal (PSP):
+		- Proposto por Watts Humphrey
+		
+		- O processo de software deve se adequar às pessoas e não o contrário.
+		
+		- O PSP (Personal Software Process) enfatiza a importância de se aprender com os erros.
+		
+		- É um processo desafiador e exige um nível de comprometimento bem alto.
+		
+		- O PSP possui cinco ativiades estruturais:
+		  * Planejamento
+		  * Projeto de alto nível
+		  * Revisão de projeto de alto nível
+		  * Desenvolvimento
+		  * Autópsia (análise postmortem)
+		  
+	Processo de Software em Equipe (TSP)*:
+		- Também proposto pelo Humphrey.
+		
+		- Baseado em lições aprendidas com o PSP.
+		
+		- O objetivo do TSP (Tea, Software Process) é criar equipes "autodirigidas" para produzir software de alta qualidade.
+		
+	Objetivo do TSP:
+		- Promover a criação de equipes autodirigidas que planejam e acompanhem seu próprio trabalho, estabeleçam metas e sejam proprietárias de seus processos e planos.
+		
+		- Mostra aos gerentes como treinar e motivar suas equipes, mantendo alto desempenho.
+		
+		- Acelera o aperfeiçoamento dos processos de software
+		
+		- Fornecer orientação para melhorias a organizações com elevado grau de maturidade.
+		
+		- Facilitar o ensino universitário de habilidades de trabalho em equipe de nível industrial.
+		
+	Atividades Metodológicas do TSP:
+		- O TSP possui cinco atividades metodológicas:
+		  * Lançamento do projeto.
+		  * Projeto de alto nível
+		  * Implementação
+		  * Integração e testes
+		  * Autópsia (análise postmortem)
+		  
+	Peocesso de Manutenção de Sistemas:
+		- Identificação do problema.
+		
+		- Análise do impacto da alteração demandada pelo problema.
+		
+		- Planejamento da forma de abordagem do problema.
+		
+		- Atualização da documentação existente, levando em consideração a transição de versões.
+		
+		- Implementação das alterações.
+		
+		- Implantação das alteraçoes.
+		
+		- Treinamento.
+		
+	Organização de Times de Software:
+		- Estrutura centralizada.
+		
+		- Estrutura descentralizada.
+		
+		- Terceirização.
+		
+	Processos e Equipes no Modelo Cascata:
+		- Modelo monolítico ( Analista-Projetista-Desenvolvedor)
+		  * Planejamento.
+		  * Não é escalável.
+		  * Reflete modelo em cascata (waterfall).
+		  * Requisitos "perfeitos" são transformados em desenhos imutáveis que são implementados em códigos por programadores mecânicos.
+		  * Antítese do modelo iterativo e incremental.
+	
+	Processos e Equipes no Modelo Iterativo:
+		- Modelo Hierárquico
+		  * Arquiteto de Sistemas com visão macro.
+		  * Analista de Sistemas com visão micro.
+		  * Desenvolvedores (engenheiros de aplicação) realizam visão micro.
+		  
+	Desafios do Processo de Software
+		- Relacionados às PESSOAS:
+		  * "Inteligência compartilhada"
+		  * Integração
+		  * Comunicação
+		  
+		- Relacionados aos PROBLEMAS:
+		  * "Dividir para Conquistar"
+		  
+		- Relacionados aos PROCESSOS:
+		  * Visão integrada
+		  * Ciclo de vida do processo de desenvolvimento de sistemas
+		  
+		- Relacionados aos PROJETO:
+		  * Gerenciamento, controle e resultado.
+	
+	Gerenciamento de Riscos:
+		- Como identificar os riscos que envolvem o processo de desenvolvimento de um software?
+		  * Tamanho do projeto.
+		  * Interferência no negócio.
+		  * Características do cliente/usuário.
+		  * Definição do processo (metodologia).
+		  * Ambiente de desenvolvimento (tecnologia)
+		  * Experiência da equipe.
+	
+	Acompanhamento de Projetos de Software:
+		- Como dividir e organizar as atividades que devem ser realizadas?
+		- Quais as principais ferramentas utilizadas para acompanhar o desenvolvimento de um processo de desenvolvimento de software?
+		
+		- Alguns critérios que devem ser considerados para relacionar pessoas às tarefas/atividades:
+		  * Conhecimento da tecnologia.
+		  * Habilidade e experiência para lidar com a tecnologia.
+		  * Grau de dificuldade da tarefa/atividade.
+		  * Independência das tarefas/atividades.
+		  * Prazo para realização.
+		
+Processo Unificado (UP - Unified Process)
+	- Baseado na construção de software a partir de componentes interconectados através de interfaces bem definidas.
+	
+	- Utiliza a UML (Unified Modeling Language).
+
+	Caracteristicas do Processo Unificado:
+		- O UP é baseado em ciclos interativos e incrementais de desenvolvimento.
+		
+		- o UP coloca uma forte ênfase na definição e no desenvolvimento da arquitetura do sistema desde o início do projeto.
+		
+		- O UP encoraja o uso de modelagem visual para representar diferentes aspectos do sistema, como requisitos. arquitetura, casos de uso, entre outros.
+	
+	Rational Unified Process (RUP):
+		- O RUP é um processo de desenvolvimento de software iterativo e incremental, baseado nos princípios do UP, enfatizando a colaboração e a modelagem visual.
+	
+	Fases do RUP:
+		- Concepção:
+		  * Definição dos casos de uso mais críricos, os quais representam as funções chave do sistema.
+		  * Delimita-se o escopo do produto a ser desenvolvido, identifica-se e reduz-se principalmente os riscos críticos da tarefa/atividade.
+		
+		- Elaboração:
+		  * Descrição arquitetural do software.
+		  * Procura-se também definir a maioria dos casos de uso, capturando a maioria dos requisitos do software.
+		  * No final desta fase deve-se estar apto a planejar a fase de construção em detalhes.
+		  
+		- Construção:
+		  * O software deve ser construído completamente, ou seja, deve-se adicionar a musculatura ao esqueleto (arquitetura).
+		  * Visa-se a capacidade operacional do software.
+		  
+		- Transição:
+		  * Esta fase envolve a realização de testes com o usuário, corrigir defeitos encontrados e realizar treinamento.
+		  
+	Variação nas iterações
+		- Modelo de domínio completamente diferente:
+		  * Consolidação de conceitos
+		  * Mais iterações na concepção
+		
+		- Nova arquitetura precisa ser montada ou existem muitos riscos
+		  * Mais iterações na elaboração.
+		
+		- Produto grande e complexo.
+		  * Mais iterações na construção
+		
+		- Organização com pouca experiência em projetos iterativos
+		  * Três iterações que produzem software [0,1,1,1]
+		  
+	Considerações sobre as iterações
+		- Projetos normalmente possuem entre 6 e 8 iterações em projetos típicos em empresas com experiêmcia em projetos iterativos.
+		
+		- Tamanho de uma iteração depende do número de pessoas e da cultura de desenvolvimento.
+		
+		- Iterações menores que 1 mês devem ser definidas cuidadosamente e não devem ser maiores que 3 meses.
+		
+	Comparação entre modelos de processos:
+		- Modelo Cascata:
+			- Prós do modelo em cascata:
+			  * É facil de entender e planejar
+			  * Funciona para projetos pequenos e bem compreendidos.
+			  * A análise e o teste são simples e diretos.
+			
+			- Contras do modelo em cascata:
+			  * Não se adapta bem a mudanças.
+			  * O teste ocorre nas fases finais do processo.
+			  * A aprovação do cliente cem no final.
+		
+		- Prototipação:
+			- Prós da prototipação:
+			  * O impacto das alterações aos requisitos é reduzido.
+			  * O cliente se envolve bastante e desde o início.
+			  * Funciona bem para projetos pequenos.
+			  * A probabilidade de rejeição do produto é reduzida.
+			  
+			- Contras da prototipação:
+			  * O envolvimento do cliente pode causa atrasos.
+			  * Pode haver a Tentação de "embalar" o protótipo.
+			  * Desperdiça-se trabalho em um protótipo descartável.
+			  * É difícil de planejar e gerenciar.
+			  
+		- Modelo Espiral:
+			- Prós do modelo espiral:
+			  * Há envolvimento contínuo dos clientes.
+			  * Os riscos de desenvolvimento são gerenciados.
+			  * É apropriado para modelos grandes e complexos.
+			  * Funciona bem para artefatos extensíveis.
+			  
+			- Contras do modelo espiral:
+			  * Falhas de análise de risco podem fadar o projeto ao fracasso.
+			  * O projeto pode ser difícil de gerenciar.
+			  * Exige uma equipe de desenvolvimento especializada.
+			  
+		- Processo Unificado:
+			- Prós do processo unificado:
+			  * A documentação de alta qualidade é enfatizada.
+			  * Há envolvimento contínuo dos clientes.
+			  * Adapta-se a alterações aos requisitos.
+			  * Funciona bem para projetos de manutenção.
+			  
+			- Contras do processo unificado:
+			  * Os casos de uso nem sempre são precisos.
+			  * A integração de incrementos de software é complicada.
+			  * A sobreposição das fases pode causar problemas.
+			  * Exige uma equipe de desenvolvimento especializada.

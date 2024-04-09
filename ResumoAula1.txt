@@ -1,0 +1,34 @@
+Introdução à Engenharia de Software
+
+Histórico da Computação:
+Primeira Era (195? e 196?): Processamento batch, softwares padronizados.
+Segunda Era (196? e 197?): Sistemas multiusuários, surgimento de software houses.
+Terceira Era (197? e 198?): Sistemas distribuídos, diminuição do custo do hardware.
+Quarta Era (198? e 200?): Aumento do poder das aplicações desktop, sistemas especialistas.
+Quinta Era (200? até hoje): Consolidação dos sistemas Web, Cloud Computing, Big Data.
+
+Síntese:
+Velocidade da evolução do hardware supera a do software.
+Organizações dependentes do software exigem qualidade e confiabilidade.
+Prazos de desenvolvimento cada vez mais curtos.
+
+Alguns Problemas:
+Relacionados ao Processo: Cronogramas otimistas, falta de gerência de risco, design inadequado.
+Relacionados ao Produto: Requisitos mal formulados, tecnologias "folheadas a ouro".
+Relacionados à Tecnologia: Troca de ferramentas no meio do projeto, falta de controle de versão.
+
+Software e suas Aplicações:
+Conceito de Software: Instruções, estruturas de dados e informação descritiva.
+Natureza do Software: Produto e veículo para entrega de outros produtos.
+
+Aplicações do Software:
+Software de sistemas, tempo real, aplicativo, científico e de engenharia, embutido, Web/móvel, inteligência artificial, livre, computação ubíqua.
+
+Software Legado:
+Adaptação a novos ambientes e tecnologias.
+Crescimento para atender novos requisitos.
+Interoperabilidade e arquitetura para novos ambientes de rede.
+
+Engenharia de Software:
+Definição: Estabelecimento de princípios de engenharia para obter software de forma econômica, confiável e eficiente.
+Camadas da Engenharia de Software: Ferramentas, métodos, processos e foco na qualidade.
